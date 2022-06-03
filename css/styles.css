@@ -326,6 +326,7 @@ body{
 }
 .our-team-section-list-item{
     margin-right: 30px;
+    background-color: #FFFFFF;
     flex-basis: calc((100% - 120px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
@@ -343,7 +344,7 @@ body{
     display: flex;
     justify-content: center;
 }
-.social-list:not(:last-child){
+.social-list-item:not(:last-child){
     margin-right: 10px;
 }
 .social-list-link{
@@ -378,7 +379,7 @@ body{
     justify-content: center;
 }
 .clients-section-list-item:not(:last-child) {
-    margin-right: 10px;
+    margin-right: 30px;
 }
 .clients-section-list-link{
     display: flex;
@@ -407,6 +408,7 @@ body{
 /* =============== ФУТЕР =============== */
 .footer-blocks{
     display: flex;
+    align-items: baseline;
 }
 .footer-list-item:not(:last-child){
     margin-bottom: 9px;
